@@ -10,6 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>microservicecloud-eureka-7001</artifactId>
+    <name>microservicecloud-eureka-7001</name>
+    <packaging>war</packaging>
+
 
     <dependencies>
         <!--eureka-server服务端 -->

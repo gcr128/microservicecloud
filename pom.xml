@@ -94,7 +94,7 @@
 
 
     <build>
-        <finalName>microservicecloud</finalName>
+        <!--<finalName>microservicecloud</finalName>-->
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -111,6 +111,19 @@
                     </delimiters>
                 </configuration>
             </plugin>
+
+            <!-- gcradd 20190327-->
+            <!--解决打war包默认要有web.xml的问题，这里设置可以没有，同时编译的war包-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+
+
         </plugins>
     </build>
 
