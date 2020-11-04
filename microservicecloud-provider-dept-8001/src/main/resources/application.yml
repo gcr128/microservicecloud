@@ -21,7 +21,7 @@ spring:
     name: microservicecloud-dept
   #数据源配置
   datasource:
-    url: jdbc:mysql://localhost:3306/cloudDB01?useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://192.168.30.111:3306/cloudDB01?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: root
     driver-class-name: org.gjt.mm.mysql.Driver     #mysql驱动包

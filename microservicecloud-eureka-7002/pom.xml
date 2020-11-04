@@ -11,7 +11,7 @@
 
     <artifactId>microservicecloud-eureka-7002</artifactId>
     <name>microservicecloud-eureka-7002</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
 
     <dependencies>
